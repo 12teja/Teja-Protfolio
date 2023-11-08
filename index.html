@@ -188,7 +188,7 @@
           <!-- /CV Left Side -->
 
           <!-- /CV-->
-          <div class="cv__content">
+          <div class="cv__content best-animation">
             <section id="hero-header" class="section_header">
               <div
                 style="
@@ -505,6 +505,22 @@
       #kn {
         margin-top: 0px;
       }
+      .cv__content {
+    position: relative;
+  }
+
+  .best-animation {
+    animation: bestAnimation 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes bestAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
     </style>
   </body>
 </html>
