@@ -748,9 +748,9 @@ body.resume-opened .deebo_fn__cv .cv__bg2 {
 .my_self h2 {
   margin: 0;
   padding: 0;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 20px;
-  font-size: calc(30px + 2.18vw);
+  font-size: calc(10px + 2.18vw);
   line-height: 1;
   /*	text-transform: uppercase;*/
   color: #eee;
